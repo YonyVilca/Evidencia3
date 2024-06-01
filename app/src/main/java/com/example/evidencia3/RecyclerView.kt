@@ -6,22 +6,23 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.evidencia3.adapter.UsuarioAdapter
 import com.example.evidencia3.databinding.FragmentRecyclerViewBinding
 
 class RecyclerViewFragment : Fragment() {
 
     private lateinit var binding: FragmentRecyclerViewBinding
+    private val usuarioMutableList: MutableList<Usuario> = UsuarioProvider.Usuarioslist.toMutableList()
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
+    ): View {
         binding = FragmentRecyclerViewBinding.inflate(inflater, container, false)
+        val manager = LinearLayoutManager(requireContext())
+        binding.recyclerUsuario.layoutManager = manager
         return binding.root
     }
 
@@ -31,14 +32,11 @@ class RecyclerViewFragment : Fragment() {
     }
 
     private fun initRecyclerView() {
-        val manager = LinearLayoutManager(requireContext())
-        binding.recyclerUsuario.layoutManager = manager
-        binding.recyclerUsuario.adapter = UsuarioAdapter(UsuarioProvider.Usuarioslist) { usuario ->
-            onItemSelected(usuario)
-        }
+        val adapter = UsuarioAdapter(usuarioMutableList) { usuario -> onItemSelected(usuario) }
+        binding.recyclerUsuario.adapter = adapter
     }
 
-    fun onItemSelected(usuario: Usuario){
-        Toast.makeText(requireContext(), usuario.realName, Toast.LENGTH_SHORT ).show()
+    private fun onItemSelected(usuario: Usuario) {
+        Toast.makeText(requireContext(), usuario.realName, Toast.LENGTH_SHORT).show()
     }
 }
