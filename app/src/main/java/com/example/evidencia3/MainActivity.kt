@@ -1,3 +1,13 @@
+/**
+ * Evidencia 3
+ *
+ * Practica: RecyclerView
+ *
+ * @author Yony Alex Vilca Mamani
+ *
+ *
+ * @since [29/05/2024]
+ */
 package com.example.evidencia3
 
 import android.os.Bundle
