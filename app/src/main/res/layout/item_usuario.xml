@@ -18,14 +18,14 @@
             android:layout_height="150dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:background="#000000"
+            android:background="#000000"
             />
 
         <TextView
             android:id="@+id/tvSuperHeroName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
+            android:textColor="@android:color/black"
             android:textSize="21sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +43,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.52"
             app:layout_constraintStart_toEndOf="@id/ivSuperHero"
-            app:layout_constraintTop_toBottomOf="@+id/tvSuperHeroName" />
+            app:layout_constraintTop_toBottomOf="@id/tvSuperHeroName" />
 
         <TextView
             android:id="@+id/tvPublisher"
@@ -53,23 +53,20 @@
             android:text="Hola"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.52"
-            app:layout_constraintStart_toEndOf="@+id/ivSuperHero"
-            app:layout_constraintTop_toBottomOf="@+id/tvRealName" />
+            app:layout_constraintStart_toEndOf="@id/ivSuperHero"
+            app:layout_constraintTop_toBottomOf="@id/tvRealName" />
+
         <ImageButton
             android:id="@+id/btnDelete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="188dp"
-            android:layout_marginTop="8dp"
-            android:background="@color/white"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/white"
             android:src="@drawable/ic_borrar"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.058"
-            app:layout_constraintStart_toEndOf="@+id/ivSuperHero"
-            app:layout_constraintTop_toBottomOf="@+id/tvPublisher" />
-
-
+            app:layout_constraintStart_toEndOf="@id/ivSuperHero"
+            app:layout_constraintTop_toBottomOf="@id/tvPublisher" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

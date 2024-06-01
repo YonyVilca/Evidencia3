@@ -4,63 +4,63 @@ class UsuarioProvider {
     companion object {
         val Usuarioslist = listOf(
             Usuario(
-                "Julio",
-                "jetbrains",
-                "antonio",
+                "Sofía",
+                "García",
+                "Pérez",
                 "https://img.freepik.com/vector-gratis/circulo-azul-usuario-blanco_78370-4707.jpg?t=st=1717224118~exp=1717227718~hmac=1e1d5095091641d4879e4120ece3d22cf325d50ac261d7d2651b3b2d599f4276&w=740"
             ),
             Usuario(
-                "Miguel",
-                "python",
-                "rodrigo",
+                "Camila",
+                "López",
+                "Sánchez",
                 "https://img.freepik.com/vector-gratis/circulo-azul-usuario-blanco_78370-4707.jpg?t=st=1717224118~exp=1717227718~hmac=1e1d5095091641d4879e4120ece3d22cf325d50ac261d7d2651b3b2d599f4276&w=740"
             ),
             Usuario(
-                "Miguel",
-                "python",
-                "rodrigo",
+                "Valentina",
+                "Ramírez",
+                "Martínez",
                 "https://img.freepik.com/vector-gratis/circulo-azul-usuario-blanco_78370-4707.jpg?t=st=1717224118~exp=1717227718~hmac=1e1d5095091641d4879e4120ece3d22cf325d50ac261d7d2651b3b2d599f4276&w=740"
             ),
             Usuario(
-                "Miguel",
-                "python",
-                "rodrigo",
+                "Isabella",
+                "Flores",
+                "González",
                 "https://img.freepik.com/vector-gratis/circulo-azul-usuario-blanco_78370-4707.jpg?t=st=1717224118~exp=1717227718~hmac=1e1d5095091641d4879e4120ece3d22cf325d50ac261d7d2651b3b2d599f4276&w=740"
             ),
             Usuario(
-                "Miguel",
-                "python",
-                "rodrigo",
+                "Daniela",
+                "Mendoza",
+                "Díaz",
                 "https://img.freepik.com/vector-gratis/circulo-azul-usuario-blanco_78370-4707.jpg?t=st=1717224118~exp=1717227718~hmac=1e1d5095091641d4879e4120ece3d22cf325d50ac261d7d2651b3b2d599f4276&w=740"
             ),
             Usuario(
-                "Miguel",
-                "python",
-                "rodrigo",
+                "Mateo",
+                "Rodríguez",
+                "Vásquez",
                 "https://img.freepik.com/vector-gratis/circulo-azul-usuario-blanco_78370-4707.jpg?t=st=1717224118~exp=1717227718~hmac=1e1d5095091641d4879e4120ece3d22cf325d50ac261d7d2651b3b2d599f4276&w=740"
             ),
             Usuario(
-                "Miguel",
-                "python",
-                "rodrigo",
+                "Santiago",
+                "Torres",
+                "Navarro",
                 "https://img.freepik.com/vector-gratis/circulo-azul-usuario-blanco_78370-4707.jpg?t=st=1717224118~exp=1717227718~hmac=1e1d5095091641d4879e4120ece3d22cf325d50ac261d7d2651b3b2d599f4276&w=740"
             ),
             Usuario(
-                "Miguel",
-                "python",
-                "rodrigo",
+                "Alejandro",
+                "Fernández",
+                "Álvarez",
                 "https://img.freepik.com/vector-gratis/circulo-azul-usuario-blanco_78370-4707.jpg?t=st=1717224118~exp=1717227718~hmac=1e1d5095091641d4879e4120ece3d22cf325d50ac261d7d2651b3b2d599f4276&w=740"
             ),
             Usuario(
-                "Miguel",
-                "python",
-                "rodrigo",
+                "Nicolás",
+                "Castro",
+                "Jiménez",
                 "https://img.freepik.com/vector-gratis/circulo-azul-usuario-blanco_78370-4707.jpg?t=st=1717224118~exp=1717227718~hmac=1e1d5095091641d4879e4120ece3d22cf325d50ac261d7d2651b3b2d599f4276&w=740"
             ),
             Usuario(
-                "Miguel",
-                "python",
-                "rodrigo",
+                "Andrés",
+                "Silva",
+                "Moreno",
                 "https://img.freepik.com/vector-gratis/circulo-azul-usuario-blanco_78370-4707.jpg?t=st=1717224118~exp=1717227718~hmac=1e1d5095091641d4879e4120ece3d22cf325d50ac261d7d2651b3b2d599f4276&w=740"
             ),
         )
